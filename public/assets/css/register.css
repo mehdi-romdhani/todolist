@@ -1,0 +1,7 @@
+.parsley-errors-list {
+    padding: 0px!important;
+ }
+ .parsley-errors-list li {
+    list-style: none;
+    color: #cc0000;
+ }
