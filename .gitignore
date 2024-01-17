@@ -18,3 +18,5 @@ yarn-error.log
 /.idea
 /.vscode
 doc.txt
+node_modules
+node_modules

@@ -1,6 +1,6 @@
 <div>
-    <label <?php echo e($attributes); ?>>
-        <?php echo e(<?php $__env->slot; ?>); ?>
+    <label <?php echo e($attributes); ?> class="block mb-2 text-black-500" >
+        <?php echo e($slot); ?>
 
     </label>
 </div>

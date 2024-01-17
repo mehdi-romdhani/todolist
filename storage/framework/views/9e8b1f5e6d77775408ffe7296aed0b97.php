@@ -1,3 +1,4 @@
+<?php $__env->startSection('title','Index'); ?>
 <?php $__env->startSection('content'); ?>
   <div class="flex h-screen">
     <div class="w-full max-w-xs m-auto bg-indigo-100 rounded p-5">
@@ -6,7 +7,7 @@
         <h2 class="text-center text-2xl font-bold mb-4">Todo List</h2>
         <div class="mb-4">
           <p class="text-center text-gray-600">Déjà inscrit ?</p>
-          <a href="<?php echo e(route('login')); ?>" class="block text-center text-indigo-600 hover:underline">Connectez-vous</a>
+          <a href="<?php echo e(route('auth.login')); ?>" class="block text-center text-indigo-600 hover:underline">Connectez-vous</a>
         </div>
         <div>
           <p class="text-center text-gray-600">Inscription</p>

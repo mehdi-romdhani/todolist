@@ -23,6 +23,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "materialize-css": "^1.0.0"
+    "materialize-css": "^1.0.0",
+    "parsleyjs": "^2.9.2"
   }
 }
